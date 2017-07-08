@@ -1,0 +1,3 @@
+% g++ -Wall -o script2 script2.ch
+
+% ./script2.sh
