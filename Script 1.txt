@@ -1,0 +1,9 @@
+% watch -n 5 free -m
+
+% cat /proc/meminfo
+
+% vmstat -s
+
+% sudo dimcode -t 17
+
+% htop
