@@ -1,12 +1,17 @@
 #include <iostream>
 #include <fstream>
-std::ifstream infile("ex_log.txt");
+#include <sstream>
+#include <algorithm>
+#include <iterator>
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
-    for( std::string line; getline(infile, line ); )
+    std::ifstream file("D:\\Kool\\Work\\Martem\\work del\\ex_logV2.txt");
+    std::string str;
+    while (std::getline(file, str))
     {
-        std::cout << line << std::endl;
+        std::cout << str << std::endl;
     }
+
     return 0;
 }

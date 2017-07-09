@@ -1,4 +1,4 @@
-# Install script for directory: D:/work del
+# Install script for directory: D:/Kool/Work/Martem/work del
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/work del/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/Kool/Work/Martem/work del/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-D:/work del/main.cpp
+D:/Kool/Work/Martem/work del/main.cpp
 iostream
 -
 fstream
+-
+string
 -
 
